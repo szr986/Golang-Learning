@@ -149,7 +149,7 @@ end
 ```
 ###  4.2. <a name='defer'></a>defer执行时机
 在Go语言的函数中return语句在底层并不是原子操作，它分为给返回值赋值和RET指令两步。而defer语句执行的时机就在返回值赋值操作后，RET指令执行前。具体如下图所示：  
-![defer](https://www.liwenzhou.com/images/Go/func/defer.png)  
+![defer](https://www.liwenzhou.com/images/Go/func/defer.png)
 
   
 ##  5. <a name='goroutine'></a>进程，线程，协程，锁与goroutine
